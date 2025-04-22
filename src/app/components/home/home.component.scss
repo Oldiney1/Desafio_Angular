@@ -1,0 +1,81 @@
+section {
+    button {
+      color: white;
+      background-color: var(--primeira-cor);
+      border-radius: 8px;
+      height: 60px;
+      width: 216px;
+      border: none;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  .turmas {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+  
+    h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+  
+    p {
+      font-size: 22px;
+      color: #7A7786;
+      margin: 0;
+    }
+  
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      gap: 16px;
+    }
+  }
+  
+  .card-termo {
+    width: 100%;
+    max-width: 311px;
+    height: 222px;
+    background-color: #E2F4C5;
+    border: none;
+    border-radius: 8px;
+    filter: drop-shadow(#404140 0.5px 0.5px 2px);
+    margin: 0 auto;
+  }
+  
+  .card-termo:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+  .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texto-termo {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .container {
+    height: 100%;
+    padding: 0 20px;
+  }
+  
