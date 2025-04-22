@@ -1,0 +1,75 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+        img{
+            margin-bottom: 40px;
+            display: block;
+            max-width: 100%;
+        }
+    
+        .container{
+            width: 565px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    
+            h1{
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 40px;
+                font-weight: bold;
+            }
+    
+            
+    
+            input{
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                height: 48px;
+                border-radius: 8px;
+                border: 1px;
+                border-color: #CDD4DA;
+                border-style: solid;
+                margin-bottom: 40px;
+                padding-left: 20px;
+            }
+    
+            
+    
+            button{
+                background-color: var(--primeira-cor);
+                color: white;
+                border-style: none;
+                border-radius: 8px;
+                width: 400px;
+                height: 48px;
+                margin-bottom: 40px;
+                font-weight: bold;
+            }
+    
+            .campo{
+                
+               p{
+                text-align: center;
+                    a{
+                        text-decoration: none;
+                        color: var(--primeira-cor);
+                        font-weight: bold;
+                    }
+               }
+            }
+           
+        }
+    }
+    
+    @media screen and (max-width: 525px) { 
+        .icon_estudando{
+            display: none;
+        }
+        
+    }
