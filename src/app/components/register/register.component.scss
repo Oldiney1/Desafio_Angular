@@ -67,9 +67,30 @@ section{
         }
     }
     
-    @media screen and (max-width: 525px) { 
-        .icon_estudando{
+    @media screen and (max-width: 768px) {
+        section {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      
+          .icon_estudando {
             display: none;
+          }
+      
+          .wrapper {
+            width: 100%;
+            padding: 20px;
+            min-height: auto;
+          }
+      
+          .container {
+            width: 100%;
+            max-width: 400px;
+      
+            input,
+            button {
+              width: 90vw;
+            }
+          }
         }
-        
-    }
+      }
