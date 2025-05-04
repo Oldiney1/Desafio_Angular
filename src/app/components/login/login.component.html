@@ -10,10 +10,27 @@
                 <input placeholder="Digite seu e-mail" type="email">
               </div>
 
-              <div>
+              <div class="input-container">
                 <label for="password">Senha</label>
-                <input placeholder="Digite sua senha" type="password">
+              
+                <div class="password-wrapper">
+                  <input
+                    class="pass"
+                    [type]="visibilidadeSenha ? 'text' : 'password'"
+                    name="password"
+                    id="password"
+                    maxlength="40" 
+                    placeholder="Digite sua senha"
+                  >
+                  <img 
+                    class="toggle-visibility"
+                    [src]="visibilidadeSenha ? 'assets/imagens/eye_open.png' : 'assets/imagens/eye_close.png'"
+                    (click)="mostrarSenha()"
+                    alt="Toggle visibility"
+                  >
+                </div>
               </div>
+              
 
               <button routerLink="home">Entrar</button>
 

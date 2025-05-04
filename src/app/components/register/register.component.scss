@@ -16,6 +16,22 @@ section{
             justify-content: center;
             align-items: center;
             flex-direction: column;
+
+            .password-wrapper {
+              position: relative;
+              width: 400px;
+              margin-bottom: 40px;
+            
+              
+            
+              .toggle-visibility {
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                transform: translateY(-50%);
+                cursor: pointer;
+              }
+            }
     
             h1{
                 font-size: 24px;
