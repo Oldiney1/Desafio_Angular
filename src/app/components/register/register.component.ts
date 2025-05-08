@@ -9,8 +9,12 @@ import { RouterLink } from '@angular/router';
 })
 export class RegisterComponent {
   visibilidadeSenha = false;
-
+  visibilidadeSenha2 = false;
   mostrarSenha(): void{
     this.visibilidadeSenha = !this.visibilidadeSenha;
+  }
+  
+  mostrarSenha2(): void{
+    this.visibilidadeSenha2 = !this.visibilidadeSenha2;
   }
 }

@@ -41,7 +41,7 @@
                 <div class="password-wrapper">
                   <input
                     class="pass"
-                    [type]="visibilidadeSenha ? 'text' : 'password'"
+                    [type]="visibilidadeSenha2 ? 'text' : 'password'"
                     name="password"
                     id="password"
                     maxlength="40" 
@@ -49,8 +49,8 @@
                   >
                   <img 
                     class="toggle-visibility"
-                    [src]="visibilidadeSenha ? 'assets/imagens/eye_open.png' : 'assets/imagens/eye_close.png'"
-                    (click)="mostrarSenha()"
+                    [src]="visibilidadeSenha2 ? 'assets/imagens/eye_open.png' : 'assets/imagens/eye_close.png'"
+                    (click)="mostrarSenha2()"
                     alt="Toggle visibility"
                   >
                 </div>
